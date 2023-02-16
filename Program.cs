@@ -1,4 +1,4 @@
-﻿using TestAPI.Data;
+using TestAPI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,3 +17,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();   
+     
